@@ -1,0 +1,27 @@
+article {
+    background-image: linear-gradient(to right, whitesmoke, rgb(122, 122, 122));
+    width: auto;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  main,
+  aside {
+    display: grid;
+    align-items: center;
+    text-align: center;
+  }
+  
+  button {
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+    background-image: linear-gradient(to right, purple, rgb(59, 1, 59));
+    font-size: 2rem;
+    cursor: pointer;
+  }
+  
+  
+  
+  

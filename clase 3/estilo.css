@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 300ms;
+  }
+  
+
+.imgFondo{
+    background-image: url(./img/pexels-kaique-rocha-447329.jpg);
+    /* background-position: center; */
+    background-size: cover;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+}
+
+.titulo{
+    font-size: 6rem;
+    font-family: 'Benne', serif;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    color: chartreuse;
+    text-align: center;
+}
+
+.contenePrisipal{
+    display: flex;
+    flex-direction: row;
+  justify-content: space-between;
+  margin: 5% 3% 0 3%;
+}
+
+.TextoPersonal{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+    width: 30%;
+    height: 30%;
+    color: #ffffff;
+}
+
+.conteneDeDato{
+    background: linear-gradient(45deg, rgb(0, 147, 29) 100px, rgb(69, 246, 45) 180px, rgb(157, 234, 113));
+    color: #ffffff;
+    font-size: 2rem;
+    width: auto;
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-family:  Times, 'Times New Roman', serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+a{
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+
+.boton {
+    padding: 1rem;
+    border-radius: 2rem;
+    border: none;
+    background-image: linear-gradient(to right,  rgb(69, 246, 45), rgb(157, 234, 113));
+    font-size: 2rem;
+    cursor: pointer;
+  }
+
+  .boton,.conteneDeDato {
+    box-shadow: 5px 5px 10px black;
+  }
+  
+  .boton:hover, .conteneDeDato:hover {
+    opacity: 0.8;
+    box-shadow: 5px 5px 20px black;
+  }
+  
+  .conteneDeDato:hover {
+    transform: scale(110%);
+  }
+
+  @media screen and (max-width: 800px) {
+    body {
+      flex-direction: column;
+      justify-content: space-around;
+    }
+
+  .conteneDeDato{
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  h2{
+    font-size: 1.8rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+    }
+} 
